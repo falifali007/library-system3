@@ -4,17 +4,17 @@
 int main() {
     Library library;
 
-    library.addBook(Book("C++ Programming", "jane salim", "12345678"));
-    library.addBook(Book("Introduction to OOP", "Jane Doe", "87654321"));
+    library.addBook(Book("C++ Programming", "farida", "20230272"));
+    library.addBook(Book("Introduction to OOP", "aisha", "20220298"));
 
-    library.addPatron(Patron("Lecturer Name", "2025-01-17"));
-    library.addPatron(Patron("Student A", "2025-01-18"));
+    library.addPatron(Patron("Emmanuel", "2025-01-18"));
+    library.addPatron(Patron("hassena", "2025-01-18"));
 
     library.listBooks();
 
-    library.borrowBook("12345678", "Student A");
+    library.borrowBook("20230272", "emmanuel");
 
-    library.returnBook("12345678");
+    library.returnBook("20230272");
 
     library.listPatrons();
 
